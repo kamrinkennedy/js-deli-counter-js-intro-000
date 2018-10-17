@@ -17,11 +17,14 @@ function currentLine (katzDeliLine) {
   } else {
   var startingMessage = 'The line is currently: '
   for (var i = 0; i < katzDeliLine.length; i++) {
-    startingMessage +=`${i + 1}. ${katzDeliLine[i] + ','} `;
+    if (i === katzDeliLine.length -1){
+      startingMessage +=`${i + 1}. ${katzDeliLine[i]}`;
+    } else {
+      startingMessage +=`${i + 1}. ${katzDeliLine[i]}, `;
+    }
+    
   }
-  // else {
-  //   startingMessage += ` ${i + 1}. ${katzDeliLine[i]}`
-  // }
+
   return startingMessage;
 };
 };
