@@ -19,7 +19,7 @@ function currentLine (katzDeliLine) {
   var string = []
   for (var i = 0; i < katzDeliLine.length; i++) {
     }
-    string.push((i + 1) + '. ' + katzDeliLine[i] + ' ');
+    string.push(i + 1 + '. ' + katzDeliLine[i] + ' ');
   };
   return startingMessage + string;
 };
