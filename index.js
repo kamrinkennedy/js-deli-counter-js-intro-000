@@ -21,4 +21,4 @@ function currentLine (katzDeliLine) {
   };
   return string;
 };
-};
+
