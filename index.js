@@ -22,7 +22,7 @@ function currentLine (katzDeliLine) {
     } else {
       startingMessage +=`${i + 1}. ${katzDeliLine[i]}, `;
     }
-    
+
   }
 
   return startingMessage;
