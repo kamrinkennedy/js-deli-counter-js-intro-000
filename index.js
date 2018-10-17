@@ -15,11 +15,11 @@ function currentLine (katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return 'The line is currently empty.'
   } else {
-  var default = 'The line is currently: '
+  var startingMessage = 'The line is currently: '
   var string = []
   for (var i = 0; i < katzDeliLine.length; i++) {
     string.push(`${i + 1}. ${katzDeliLine[i]}`);
   };
-  return default + string;
+  return startingMessage + string;
 };
 };
