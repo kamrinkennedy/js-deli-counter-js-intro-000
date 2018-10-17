@@ -20,5 +20,5 @@ function currentLine (katzDeliLine) {
   //   string.push(`${i} katzDeliLine[${i}],`);
   };
 };
-  return string;
+return string;
 };
