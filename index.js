@@ -18,7 +18,6 @@ function currentLine (katzDeliLine) {
   var startingMessage = 'The line is currently: '
   var string = []
   for (var i = 0; i < katzDeliLine.length; i++) {
-    }
     string.push(i + 1 + '. ' + katzDeliLine[i] + ' ');
   };
   return startingMessage + string;
