@@ -16,13 +16,12 @@ function currentLine (katzDeliLine) {
     return 'The line is currently empty.'
   } else {
   var startingMessage = 'The line is currently: '
-  var string = []
   for (var i = 0; i < katzDeliLine.length; i++) {
-    if (i === 0) {
-    string.push(`${i + 1}. ${katzDeliLine[i]}`);
-  } else {
-    string.push(` ${i + 1}. ${katzDeliLine[i]}`)
-  }
+    startingMessage +=`${i + 1}. ${katzDeliLine[i]}`;
+  } 
+  // else {
+  //   startingMessage += ` ${i + 1}. ${katzDeliLine[i]}`
+  // }
   return startingMessage + string;
 };
 };
