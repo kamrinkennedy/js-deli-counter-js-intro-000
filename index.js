@@ -19,6 +19,6 @@ function currentLine (katzDeliLine) {
   for (i = 0; i < katzDeliLine.length; i++) {
     string.push(`${i + 1} katzDeliLine[${i}],`);
   };
-}
+};
   return string;
 };
